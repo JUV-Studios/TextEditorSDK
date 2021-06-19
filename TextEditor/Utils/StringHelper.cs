@@ -2,7 +2,7 @@
 {
 	internal static unsafe class StringHelper
 	{
-		public static void ReplaceCharacter(string text, char replaced, char replacedWith)
+		public static void ReplaceCharacter(this string text, char replaced, char replacedWith)
 		{
 			fixed (char* buffer = text)
 			{

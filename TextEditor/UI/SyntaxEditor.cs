@@ -246,7 +246,7 @@ namespace TextEditor.UI
 					if (!IsRichText && RemoveBom)
 					{
 						// Remove BOM
-						StringHelper.ReplaceCharacter(value, '\uFEFF', string.Empty[0]);
+						value.ReplaceCharacter('\uFEFF', string.Empty[0]);
 					}
 
 					TextDocument.SetText(IsRichText ? TextSetOptions.FormatRtf : TextSetOptions.None, value);

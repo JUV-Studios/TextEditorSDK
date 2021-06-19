@@ -24,12 +24,12 @@ namespace TextEditor.Utils
 			if (lineEnding == LineEnding.CR)
 			{
 				text = text.Replace("\r\n", "\r").Replace("\n\r", "\r");
-				StringHelper.ReplaceCharacter(text, '\n', '\r');
+				text.ReplaceCharacter('\n', '\r');
 			}
 			else if (lineEnding == LineEnding.LF)
 			{
 				text = text.Replace("\r\n", "\n").Replace("\n\r", "\n");
-				StringHelper.ReplaceCharacter(text, '\r', '\n');
+				text.ReplaceCharacter('\r', '\n');
 			}
 			else
 			{
