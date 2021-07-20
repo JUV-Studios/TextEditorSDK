@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TextEditor")]
-[assembly: AssemblyDescription("Provides core text editor functionality for Develop.")]
+[assembly: AssemblyDescription("Provides controls and tools for building a text editor or viewer with UWP XAML.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("JUV Studios")]
-[assembly: AssemblyProduct("Develop")]
-[assembly: AssemblyCopyright("© 2021 JUV Studios. All rights reserved")]
+[assembly: AssemblyProduct("OneToolkit")]
+[assembly: AssemblyCopyright("© 2021 JUV Studios. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
