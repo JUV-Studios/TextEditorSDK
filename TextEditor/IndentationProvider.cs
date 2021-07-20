@@ -17,10 +17,10 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
-using TextEditor.Utils;
+using JuvStudios.TextEditor.Utils;
 using System.Collections.Generic;
 
-namespace TextEditor
+namespace JuvStudios.TextEditor
 {
     public interface IIndentationProvider
     {

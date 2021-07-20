@@ -1,4 +1,4 @@
-﻿namespace TextEditor.Languages
+﻿namespace JuvStudios.TextEditor.Languages
 {
     /* public sealed class PlainTextLanguage : SyntaxLanguage
     {

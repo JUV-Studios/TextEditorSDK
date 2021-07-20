@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using TextEditor.UI;
+using JuvStudios.TextEditor.UI;
 using Windows.UI.Xaml;
 
-namespace TextEditor.Utils
+namespace JuvStudios.TextEditor.Utils
 {
 	public interface IHistoryStack : INotifyPropertyChanged
 	{

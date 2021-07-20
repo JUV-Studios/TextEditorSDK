@@ -19,7 +19,7 @@
 
 using System.Collections.Generic;
 
-namespace TextEditor
+namespace JuvStudios.TextEditor
 {
     public interface ISyntaxLanguage
     {        

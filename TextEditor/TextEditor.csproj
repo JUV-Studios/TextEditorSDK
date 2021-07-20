@@ -7,7 +7,7 @@
     <ProjectGuid>{2C931298-EEF0-4DCE-8B23-09735EDFF721}</ProjectGuid>
     <OutputType>winmdobj</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TextEditor</RootNamespace>
+    <RootNamespace>JuvStudios.TextEditor</RootNamespace>
     <AssemblyName>TextEditor</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>

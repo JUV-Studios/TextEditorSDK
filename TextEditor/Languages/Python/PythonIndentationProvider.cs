@@ -17,7 +17,7 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
-namespace TextEditor.Languages
+namespace JuvStudios.TextEditor.Languages
 {
     internal sealed class PythonIndentationProvider //: IndentationProvider
     {

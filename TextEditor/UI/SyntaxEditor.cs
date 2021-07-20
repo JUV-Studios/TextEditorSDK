@@ -23,8 +23,8 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
-using TextEditor.Lexer;
-using TextEditor.Utils;
+using JuvStudios.TextEditor.Lexer;
+using JuvStudios.TextEditor.Utils;
 using Windows.ApplicationModel.DataTransfer;
 using Windows.Foundation;
 using Windows.Security.Cryptography;
@@ -38,7 +38,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Markup;
 
-namespace TextEditor.UI
+namespace JuvStudios.TextEditor.UI
 {
 	public delegate void ContentChangedEventHandler(bool isReset);
 

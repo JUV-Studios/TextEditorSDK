@@ -1,6 +1,6 @@
 ﻿using Windows.UI;
 
-namespace TextEditor.Lexer
+namespace JuvStudios.TextEditor.Lexer
 {
     public enum TokenType
 	{

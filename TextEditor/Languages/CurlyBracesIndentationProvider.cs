@@ -1,4 +1,4 @@
-﻿namespace TextEditor.Languages
+﻿namespace JuvStudios.TextEditor.Languages
 {
     /* public class CurlyBracesIndentationProvider : IndentationProvider
     {

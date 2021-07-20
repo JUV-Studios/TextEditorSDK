@@ -1,4 +1,4 @@
-﻿namespace TextEditor.Utils
+﻿namespace JuvStudios.TextEditor.Utils
 {
 	internal static unsafe class StringHelper
 	{

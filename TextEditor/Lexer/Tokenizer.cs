@@ -20,7 +20,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace TextEditor.Lexer
+namespace JuvStudios.TextEditor.Lexer
 {
     public static class Tokenizer
     {

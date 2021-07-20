@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Security.Cryptography;
 
-namespace TextEditor.Utils
+namespace JuvStudios.TextEditor.Utils
 {
 	public static class TextEncodingDetect
 	{

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace TextEditor.Languages
+namespace JuvStudios.TextEditor.Languages
 {
     /* public static class LanguageProvider
     {

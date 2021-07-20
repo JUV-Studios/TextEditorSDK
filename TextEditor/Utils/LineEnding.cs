@@ -1,6 +1,6 @@
 ﻿using Windows.UI.Text;
 
-namespace TextEditor.Utils
+namespace JuvStudios.TextEditor.Utils
 {
 	public enum LineEnding
 	{

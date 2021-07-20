@@ -20,10 +20,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
-using TextEditor.Lexer;
+using JuvStudios.TextEditor.Lexer;
 using Windows.ApplicationModel;
 
-namespace TextEditor.Languages
+namespace JuvStudios.TextEditor.Languages
 {
     internal sealed class PythonSyntaxLanguage
     {
