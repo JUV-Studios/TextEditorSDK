@@ -27,4 +27,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("0.0.3.5")]
 [assembly: AssemblyFileVersion("0.0.3.5")]
 [assembly: ComVisible(false)]
-[assembly: NeutralResourcesLanguage("ta")]
+[assembly: NeutralResourcesLanguage("")]
