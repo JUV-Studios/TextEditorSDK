@@ -139,7 +139,7 @@ namespace JuvStudios.TextEditor.UI
 				uint bytesLoadedCount = await dataReader.LoadAsync(Convert.ToUInt32(readStream.Size));
 				byte[] buffer = new byte[readStream.Size];
 				dataReader.ReadBytes(buffer);
-				StringEncoding = Utils.TextEncodingDetect.DetectEncoding(buffer);
+				StringEncoding = TextEncodingDetect.DetectEncoding(buffer);
 				Text = CryptographicBuffer.ConvertBinaryToString(StringEncoding, buffer.AsBuffer());
 				OriginalText = Text.TrimEnd();
 			}
@@ -298,7 +298,7 @@ namespace JuvStudios.TextEditor.UI
 				isReset = true;
 				acceptChanges = false;
 			}
-			else if (HistoryStack.TryUndoPeek(out string previousText)) acceptChanges = !(value == previousText);
+			else if (HistoryStack.TryUndoPeek(out string previousText)) acceptChanges = value != previousText;
 			else acceptChanges = true;
 			return acceptChanges;
 		}
